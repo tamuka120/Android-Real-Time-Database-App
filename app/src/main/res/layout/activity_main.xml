@@ -1,16 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="comtamuka120.httpsgithub.final_project.MainActivity">
+    tools:context="comtamuka120.httpsgithub.final_project.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="42dp"
-        android:layout_height="39dp"
-        android:background="@drawable/web_hi_res_512"
-        android:spinnerMode="dropdown" />
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/profile_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/gamepage_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/page"
+            app:layout_constraintEnd_toStartOf="@+id/profile_btn"
+            app:layout_constraintStart_toEndOf="@+id/homepage_btn"
+            app:layout_constraintTop_toTopOf="@+id/blackbar_menu" />
+
+        <Button
+            android:id="@+id/homepage_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/home"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/linkview2_btn"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkview1_btn" />
+
+        <Button
+            android:id="@+id/linkview1_btn"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="84dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/linkview3_btn"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkview2_btn" />
+
+        <Button
+            android:id="@+id/linkview4_btn"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkview3_btn" />
+
+        <Button
+            android:id="@+id/linkview5_btn"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkview4_btn" />
+
+        <Button
+            android:id="@+id/linkview6_btn"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkview5_btn" />
+
+        <TextView
+            android:id="@+id/blackbar_menu"
+            android:layout_width="403dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/cardview_dark_background" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
