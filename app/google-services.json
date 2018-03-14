@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466661990717",
+    "firebase_url": "https://project-2018-1c134.firebaseio.com",
+    "project_id": "project-2018-1c134",
+    "storage_bucket": "project-2018-1c134.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466661990717:android:1aa10986518abf92",
+        "android_client_info": {
+          "package_name": "comtamuka120.httpsgithub.final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466661990717-i7o9mpi6r359u88k3b52em3grhr3sojv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comtamuka120.httpsgithub.final_project",
+            "certificate_hash": "b684cd0ef52edcb7db5d465d36de979e77688157"
+          }
+        },
+        {
+          "client_id": "466661990717-l2hmjdcm7h2v6703m2dvq2q8dc0osrsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRATMsUV38i7btkVYxOUVLhB3aVegvFzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466661990717-l2hmjdcm7h2v6703m2dvq2q8dc0osrsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
