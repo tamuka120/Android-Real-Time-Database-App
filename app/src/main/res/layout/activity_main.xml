@@ -44,7 +44,7 @@
         android:id="@+id/logo_login"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_alignBottom="@+id/login_user_ediText"
+        android:layout_above="@+id/pass_login_editText"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="36dp"
         android:contentDescription="@string/yellow_logo_description"
